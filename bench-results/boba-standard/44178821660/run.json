@@ -1,0 +1,13 @@
+{
+ "id": 44178821660,
+ "html_url": "https://github.com/boba-benchmarks/documenso/actions/runs/44178821660",
+ "head_sha": "977cec0055d6ebb7c62ad2680db333d29da26c0c",
+ "head_branch": "main",
+ "event": "workflow_dispatch",
+ "status": "completed",
+ "conclusion": "failure",
+ "created_at": "2026-11-17T21:20:44Z",
+ "updated_at": "2026-11-17T21:58:27Z",
+ "run_started_at": "2026-11-17T21:20:44Z",
+ "run_attempt": 1
+}

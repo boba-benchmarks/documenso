@@ -1,0 +1,31 @@
+{
+ "at": "2026-11-17T23:50:56+00:00",
+ "suite": "documenso",
+ "repo": "boba-benchmarks/documenso",
+ "runner": "github-16",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/boba-benchmarks/documenso/actions/runs/44200398598",
+ "run_id": 44200398598,
+ "sha": "bd20f89cae22ff2a849ccfb6439cdf3faee0ec67",
+ "conclusion": "success",
+ "wall_s": 1041,
+ "queue_s": 3,
+ "job_s": 1041,
+ "jobs": 1,
+ "vcpu_min": 277.6,
+ "billed_min": 18,
+ "usd": 0.756,
+ "tests": {
+  "passed": 786,
+  "failed": 0,
+  "flaky": 2,
+  "skipped": 11,
+  "failed_tests": [],
+  "flaky_tests": [
+   "admin/email-transports/email-transport-claims.spec.ts::[ADMIN][EMAIL_TRANSPORT]: updating a subscription claim WITH backport propagates to organisation claims::ui",
+   "documents/find-documents.spec.ts::sender filter should narrow results correctly::ui"
+  ],
+  "files": 1
+ }
+}

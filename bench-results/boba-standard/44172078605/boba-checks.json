@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/134376944001",
+  "conclusion": "failure",
+  "started_at": "2026-11-17T20:46:47Z",
+  "completed_at": "2026-11-17T21:20:03Z",
+  "title": "Failed on this commit",
+  "summary": "### \u274c Failed on this commit\n\n`[REPORT_SENDER]: does not double count within the rate limit window` fails on this commit every time\n\n<!-- boba-card:31fab08a7feb7024 -->\n\n> The page said \u201c2\u201d The test expected \u201c1\u201d\n\n<details>\n<summary><h4>\ud83e\udd16 Prompt for AI agents</h4></summary>\n\n```text\nFix the Playwright test failing on boba-benchmarks/documenso, at commit 977cec0. It fails on this push, and Boba has no run of main to compare with.\n\n1. packages/app-tests/e2e/recipient/report-sender.spec.ts \u203a [REPORT_SENDER]: does not double count within the rate limit window\n   The page said \u201c2\u201d The test expected \u201c1\u201d\n\nCheck your fixes: npx playwright test packages/app-tests/e2e/recipient/report-sender.spec.ts\n```\n\n</details>\n\n[Open the trace](https://www.coldtea.ai/api/boba/reports/bj_4ee62bb005c69dd6/50160f9ebdba86a2fa4a5e485f7f11c9/html/index.html#?testId=aa97de3fb310047986f9-9dc858959aa5c8a0454c) \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_4ee62bb005c69dd6/50160f9ebdba86a2fa4a5e485f7f11c9/html/index.html)\n\n<details>\n<summary>1 flaky test, not blocking \u00b7 542 passed \u00b7 255 skipped \u00b7 33 min 16 s</summary>\n\n`[TEAMS]: team admin can move manager document to everyone folder` failed twice here, then passed on retry\n\n</details>\n\n**Errors outside tests**\n\n- Testing stopped early after 1 maximum allowed failures.\n\nBoba set up your app on this first run. Later pushes will reuse that setup and start faster.",
+  "text": null
+ }
+]

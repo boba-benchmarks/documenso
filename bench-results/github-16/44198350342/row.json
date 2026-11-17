@@ -1,0 +1,31 @@
+{
+ "at": "2026-11-17T23:33:19+00:00",
+ "suite": "documenso",
+ "repo": "boba-benchmarks/documenso",
+ "runner": "github-16",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/boba-benchmarks/documenso/actions/runs/44198350342",
+ "run_id": 44198350342,
+ "sha": "bd20f89cae22ff2a849ccfb6439cdf3faee0ec67",
+ "conclusion": "success",
+ "wall_s": 813,
+ "queue_s": 3,
+ "job_s": 813,
+ "jobs": 1,
+ "vcpu_min": 216.8,
+ "billed_min": 14,
+ "usd": 0.588,
+ "tests": {
+  "passed": 786,
+  "failed": 0,
+  "flaky": 2,
+  "skipped": 11,
+  "failed_tests": [],
+  "flaky_tests": [
+   "admin/email-transports/email-transport-claims.spec.ts::[ADMIN][EMAIL_TRANSPORT]: updating a subscription claim WITHOUT backport does not touch organisation claims::ui",
+   "settings/preferred-team-cookie.spec.ts::switching team in settings records the newly selected team::ui"
+  ],
+  "files": 1
+ }
+}

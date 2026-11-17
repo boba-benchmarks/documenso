@@ -1,0 +1,29 @@
+{
+ "at": "2026-11-17T23:59:30+00:00",
+ "suite": "documenso",
+ "repo": "boba-benchmarks/documenso",
+ "runner": "boba-standard",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/boba-benchmarks/documenso/actions/runs/44203367441",
+ "run_id": 44203367441,
+ "sha": "bd20f89cae22ff2a849ccfb6439cdf3faee0ec67",
+ "conclusion": "failure",
+ "wall_s": 281,
+ "queue_s": 12,
+ "job_s": 281,
+ "jobs": 1,
+ "vcpu_min": null,
+ "billed_min": null,
+ "usd": null,
+ "tests": {
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "checks": 1,
+  "conclusions": [
+   "failure"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/135120114107",
+  "conclusion": "success",
+  "started_at": "2026-11-18T20:39:04Z",
+  "completed_at": "2026-11-18T20:45:22Z",
+  "title": "788 passed, 6 flaky",
+  "summary": "### \u2705 All 788 tests passed in 6 min 17 s\n\nOn 256166f \u00b7 10 min 43 s into the job \u00b7 11 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_4d0f3647cd72fd41/85b88a9e064648724b5b3087167ecd11/html/index.html)\n\n<details>\n<summary>6 flaky tests, not blocking</summary>\n\n`[DOCUMENTS]: deleting draft documents should permanently remove it` failed once here, then passed on retry\n`[DOCUMENTS]: deleting documents as a recipient should only hide it for them` failed 3 times here, then passed on retry\n`save document as template without fields but with recipients` failed once here, then passed on retry\n`switching team in settings records the newly selected team` failed 3 times here, then passed on retry\n`[DOCUMENTS]: cancelling a pending document keeps it in the owner dashboard as cancelled` failed once here, then passed on retry\n`[DOCUMENTS]: cancelling a pending document retains it for recipients` failed once here, then passed on retry\n\n</details>",
+  "text": null
+ }
+]

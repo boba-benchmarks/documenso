@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/135067921142",
+  "conclusion": "success",
+  "started_at": "2026-11-18T19:17:25Z",
+  "completed_at": "2026-11-18T19:21:09Z",
+  "title": "788 passed, 3 flaky",
+  "summary": "### \u2705 All 788 tests passed in 3 min 44 s\n\nOn bd20f89 \u00b7 6 min 28 s into the job \u00b7 11 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_7dac329286f9b1d9/e848bfcbe393c7e659e495a4c86e6395/html/index.html)\n\n<details>\n<summary>3 flaky tests, not blocking</summary>\n\n`[TEAMS]: team admin can move manager document to everyone folder` failed once here, then passed on retry\n`[TEAMS]: team admin can move manager document to manager folder` failed twice here, then passed on retry\n`[DOCUMENTS]: cancelling a pending document keeps it in the owner dashboard as cancelled` failed once here, then passed on retry\n\n</details>",
+  "text": null
+ }
+]

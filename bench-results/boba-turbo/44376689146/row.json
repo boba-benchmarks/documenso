@@ -1,0 +1,51 @@
+{
+ "at": "2026-11-18T19:14:27+00:00",
+ "suite": "documenso",
+ "repo": "boba-benchmarks/documenso",
+ "runner": "boba-turbo",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/boba-benchmarks/documenso/actions/runs/44376689146",
+ "run_id": 44376689146,
+ "sha": "bd20f89cae22ff2a849ccfb6439cdf3faee0ec67",
+ "conclusion": "success",
+ "wall_s": 533,
+ "queue_s": 11,
+ "job_s": 533,
+ "jobs": 1,
+ "vcpu_min": 223.97,
+ "billed_min": null,
+ "usd": 0.224,
+ "tests": {
+  "passed": 788,
+  "failed": 0,
+  "flaky": 4,
+  "skipped": 11,
+  "checks": 1,
+  "conclusions": [
+   "success"
+  ],
+  "failed_titles": []
+ },
+ "boba_jobs": [
+  {
+   "boba_job_id": "bj_613ff7e826a08e29",
+   "tier": "turbo",
+   "warm": true,
+   "outcome": "done",
+   "forks": 15,
+   "start_plan_forks": 18,
+   "start_plan_reason": "time_earned",
+   "start_plan_granted": 4,
+   "start_plan_error": null,
+   "vcpu_minutes": 223.97,
+   "billed_vcpu_minutes": null,
+   "billing_status": "skipped",
+   "duration_ms": 536948,
+   "hosts": 3,
+   "split_declined_reason": null,
+   "tests_ms": 350495
+  }
+ ],
+ "price_basis": "used (skipped)"
+}

@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/134466877124",
+  "conclusion": "failure",
+  "started_at": "2026-11-18T00:02:22Z",
+  "completed_at": "2026-11-18T00:02:39Z",
+  "title": "Boba failed, not your code",
+  "summary": "### \u26a0\ufe0f Boba failed, not your code\n\nBoba could not save a test environment from this run's machine (stopped at building). This was Boba's failure, not your code's.\n\nThis run is free: Boba doesn't bill a run it broke.\n\nRe-run the job to run your tests.\n\n[Full log](https://github.com/boba-benchmarks/documenso/actions/runs/44204081662)",
+  "text": null
+ }
+]

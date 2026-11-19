@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/135643926124",
+  "conclusion": "failure",
+  "started_at": "2026-11-19T14:43:02Z",
+  "completed_at": "2026-11-19T14:50:04Z",
+  "title": "Failed on this commit",
+  "summary": "### \u274c Failed on this commit\n\n`delete draft document` fails on this commit every time\n\n<!-- boba-card:ff603e6cf8232775 -->\n\n> The test expected \\`locator('\\[role=\"status\"\\]').getByText('Document deleted')\\` to be visible, but it wasn't on the page\n\n<details>\n<summary><h4>\ud83e\udd16 Prompt for AI agents</h4></summary>\n\n```text\nFix the Playwright test failing on boba-benchmarks/documenso, at commit fb2aec8. It fails on this push, and Boba has no run of main to compare with.\n\n1. packages/app-tests/e2e/envelope-editor-v2/envelope-actions.spec.ts \u203a document editor \u203a delete draft document\n   The test expected `locator('[role=\"status\"]').getByText('Document deleted')` to be visible, but it wasn't on the page\n\nCheck your fixes: npx playwright test packages/app-tests/e2e/envelope-editor-v2/envelope-actions.spec.ts\n```\n\n</details>\n\n[Open the trace](https://www.coldtea.ai/api/boba/reports/bj_aa244c713864fac4/e86e6df81f316b46a5874b147708e857/html/index.html#?testId=761f9777e8e66cb63a0b-7c201a36bb724552f3f2) \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_aa244c713864fac4/e86e6df81f316b46a5874b147708e857/html/index.html)\n\n<details>\n<summary>4 flaky tests, not blocking \u00b7 772 passed \u00b7 22 skipped \u00b7 7 min 3 s</summary>\n\n`[ADMIN][EMAIL_TRANSPORT]: updating a subscription claim WITH backport propagates to organisation claims` failed once here, then passed on retry\n`sender filter should narrow results correctly` failed once here, then passed on retry\n`[TEAMS]: delete pending team document` failed once here, then passed on retry\n`[DOCUMENTS]: cancelling a pending document keeps it in the owner dashboard as cancelled` failed once here, then passed on retry\n\n</details>\n\n**Errors outside tests**\n\n- Testing stopped early after 1 maximum allowed failures.",
+  "text": null
+ }
+]

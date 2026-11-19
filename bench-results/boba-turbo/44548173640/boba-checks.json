@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/135652668644",
+  "conclusion": "success",
+  "started_at": "2026-11-19T14:55:07Z",
+  "completed_at": "2026-11-19T15:03:31Z",
+  "title": "788 passed, 1 flaky",
+  "summary": "### \u2705 All 788 tests passed in 8 min 24 s\n\nOn fb2aec8 \u00b7 12 min 37 s into the job \u00b7 11 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_737af2eaa6f80b7f/850f792c79d4a0e8e829c5278b5f4a16/html/index.html)\n\n<details>\n<summary>1 flaky test, not blocking</summary>\n\n`[DOCUMENTS]: deleting draft documents should permanently remove it` failed once here, then passed on retry\n\n</details>",
+  "text": null
+ }
+]

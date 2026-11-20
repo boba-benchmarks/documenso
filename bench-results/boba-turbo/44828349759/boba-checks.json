@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/136610011179",
+  "conclusion": "success",
+  "started_at": "2026-11-20T22:24:53Z",
+  "completed_at": "2026-11-20T22:29:10Z",
+  "title": "788 passed, 5 flaky",
+  "summary": "### \u2705 All 788 tests passed in 4 min 17 s\n\nOn fb2aec8 \u00b7 7 min 2 s into the job \u00b7 11 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_63a7d4c0c9f8a152/b13a246e5bf345829b332ee0bbce45b0/html/index.html)\n\n<details>\n<summary>5 flaky tests, not blocking</summary>\n\n`[ADMIN][EMAIL_TRANSPORT]: updating a subscription claim WITHOUT backport does not touch organisation claims` failed 4 times here, then passed on retry\n`sender filter should narrow results correctly` failed 3 times here, then passed on retry\n`save as template from document row dropdown` failed twice here, then passed on retry\n`[TEAMS]: delete pending team document` failed once here, then passed on retry\n`[ADMIN]: promote member to owner` failed once here, then passed on retry\n\n</details>",
+  "text": null
+ }
+]

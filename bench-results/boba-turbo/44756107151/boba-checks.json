@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/136360859688",
+  "conclusion": "success",
+  "started_at": "2026-11-20T14:45:45Z",
+  "completed_at": "2026-11-20T14:51:13Z",
+  "title": "788 passed, 4 flaky",
+  "summary": "### \u2705 All 788 tests passed in 5 min 28 s\n\nOn fb2aec8 \u00b7 8 min 14 s into the job \u00b7 11 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_5375130208ce276f/42559b8fe8d13f3bfc556e1fbe758d5d/html/index.html)\n\n<details>\n<summary>4 flaky tests, not blocking</summary>\n\n`[ADMIN][EMAIL_TRANSPORT]: updating a subscription claim WITHOUT backport does not touch organisation claims` failed once here, then passed on retry\n`[DOCUMENTS]: deleting documents as a recipient should only hide it for them` failed once here, then passed on retry\n`delete draft document` failed once here, then passed on retry\n`[TEAMS]: delete completed team document` failed twice here, then passed on retry\n\n</details>",
+  "text": null
+ }
+]

@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/137364350584",
+  "conclusion": "success",
+  "started_at": "2026-11-22T21:28:06Z",
+  "completed_at": "2026-11-22T21:37:16Z",
+  "title": "788 passed, 3 flaky",
+  "summary": "### \u2705 All 788 tests passed in 9 min 10 s\n\nOn fb2aec8 \u00b7 13 min 13 s into the job \u00b7 11 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_48739ee6812078b8/1114d8ceb54223f7ca68053508f70d71/html/index.html)\n\n<details>\n<summary>3 flaky tests, not blocking</summary>\n\n`[DOCUMENTS]: deleting documents as a recipient should only hide it for them` failed once here, then passed on retry\n`sender filter should narrow results correctly` failed once here, then passed on retry\n`save as template from document row dropdown` failed once here, then passed on retry\n\n</details>\n\nBoba set up your app on this first run. Later pushes will reuse that setup and start faster.",
+  "text": null
+ }
+]

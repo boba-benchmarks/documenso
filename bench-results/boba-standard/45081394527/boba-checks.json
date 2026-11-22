@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/137392971031",
+  "conclusion": "success",
+  "started_at": "2026-11-22T23:08:55Z",
+  "completed_at": "2026-11-22T23:15:53Z",
+  "title": "788 passed, 1 flaky",
+  "summary": "### \u2705 All 788 tests passed in 6 min 58 s\n\nOn fb2aec8 \u00b7 9 min 33 s into the job \u00b7 11 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_64d2ad50af8d8aa1/f199cfebf8b2ae20b0bca892654998e3/html/index.html)\n\n<details>\n<summary>1 flaky test, not blocking</summary>\n\n`save as template from document row dropdown` failed once here, then passed on retry\n\n</details>",
+  "text": null
+ }
+]

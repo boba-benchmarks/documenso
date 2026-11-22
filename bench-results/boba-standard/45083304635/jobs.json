@@ -1,0 +1,163 @@
+[
+ {
+  "id": 137396125304,
+  "name": "e2e (boba-standard)",
+  "html_url": "https://github.com/boba-benchmarks/documenso/actions/runs/45083304635/job/137396125304",
+  "status": "completed",
+  "conclusion": "success",
+  "created_at": "2026-11-22T23:26:57Z",
+  "started_at": "2026-11-22T23:27:04Z",
+  "completed_at": "2026-11-22T23:37:17Z",
+  "labels": [
+   "coldtea-boba"
+  ],
+  "runner_name": "boba-137396125304-1",
+  "runner_group_name": "coldtea boba - documenso",
+  "steps": [
+   {
+    "name": "Set up job",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 1,
+    "started_at": "2026-11-22T23:27:05Z",
+    "completed_at": "2026-11-22T23:27:06Z"
+   },
+   {
+    "name": "Set up runner",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 2,
+    "started_at": "2026-11-22T23:27:06Z",
+    "completed_at": "2026-11-22T23:27:06Z"
+   },
+   {
+    "name": "Run actions/checkout@v4",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 3,
+    "started_at": "2026-11-22T23:27:06Z",
+    "completed_at": "2026-11-22T23:27:08Z"
+   },
+   {
+    "name": "Copy env",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 4,
+    "started_at": "2026-11-22T23:27:08Z",
+    "completed_at": "2026-11-22T23:27:08Z"
+   },
+   {
+    "name": "Run ./.github/actions/node-install",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 5,
+    "started_at": "2026-11-22T23:27:08Z",
+    "completed_at": "2026-11-22T23:27:29Z"
+   },
+   {
+    "name": "Start Services",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 6,
+    "started_at": "2026-11-22T23:27:29Z",
+    "completed_at": "2026-11-22T23:27:30Z"
+   },
+   {
+    "name": "Raise the database connection limit",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 7,
+    "started_at": "2026-11-22T23:27:30Z",
+    "completed_at": "2026-11-22T23:27:31Z"
+   },
+   {
+    "name": "Run ./.github/actions/playwright-install",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 8,
+    "started_at": "2026-11-22T23:27:31Z",
+    "completed_at": "2026-11-22T23:27:34Z"
+   },
+   {
+    "name": "Build app",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 9,
+    "started_at": "2026-11-22T23:27:34Z",
+    "completed_at": "2026-11-22T23:29:07Z"
+   },
+   {
+    "name": "Create the database",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 10,
+    "started_at": "2026-11-22T23:29:07Z",
+    "completed_at": "2026-11-22T23:29:10Z"
+   },
+   {
+    "name": "Seed the database",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 11,
+    "started_at": "2026-11-22T23:29:10Z",
+    "completed_at": "2026-11-22T23:29:19Z"
+   },
+   {
+    "name": "Start the app",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 12,
+    "started_at": "2026-11-22T23:29:19Z",
+    "completed_at": "2026-11-22T23:29:21Z"
+   },
+   {
+    "name": "Run Playwright tests on Boba",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 13,
+    "started_at": "2026-11-22T23:29:21Z",
+    "completed_at": "2026-11-22T23:37:13Z"
+   },
+   {
+    "name": "Run Playwright tests",
+    "status": "completed",
+    "conclusion": "skipped",
+    "number": 14,
+    "started_at": "2026-11-22T23:37:13Z",
+    "completed_at": "2026-11-22T23:37:13Z"
+   },
+   {
+    "name": "Run actions/upload-artifact@v4",
+    "status": "completed",
+    "conclusion": "skipped",
+    "number": 15,
+    "started_at": "2026-11-22T23:37:13Z",
+    "completed_at": "2026-11-22T23:37:13Z"
+   },
+   {
+    "name": "Post Run ./.github/actions/node-install",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 29,
+    "started_at": "2026-11-22T23:37:13Z",
+    "completed_at": "2026-11-22T23:37:13Z"
+   },
+   {
+    "name": "Post Run actions/checkout@v4",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 30,
+    "started_at": "2026-11-22T23:37:13Z",
+    "completed_at": "2026-11-22T23:37:13Z"
+   },
+   {
+    "name": "Complete job",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 31,
+    "started_at": "2026-11-22T23:37:13Z",
+    "completed_at": "2026-11-22T23:37:13Z"
+   }
+  ]
+ }
+]

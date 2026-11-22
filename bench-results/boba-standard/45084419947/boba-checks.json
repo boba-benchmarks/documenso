@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/137402452813",
+  "conclusion": "success",
+  "started_at": "2026-11-22T23:42:09Z",
+  "completed_at": "2026-11-22T23:49:23Z",
+  "title": "788 passed, 2 flaky",
+  "summary": "### \u2705 All 788 tests passed in 7 min 15 s\n\nOn fb2aec8 \u00b7 9 min 47 s into the job \u00b7 11 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_abeafe82c5ca1324/638c399bdbe756e59bcb2108a5216dee/html/index.html)\n\n<details>\n<summary>2 flaky tests, not blocking</summary>\n\n`[TEAMS]: document folder can be moved to another document folder` failed once here, then passed on retry\n`[ADMIN][EMAIL_TRANSPORT]: updating a subscription claim WITH backport propagates to organisation claims` failed twice here, then passed on retry\n\n</details>",
+  "text": null
+ }
+]

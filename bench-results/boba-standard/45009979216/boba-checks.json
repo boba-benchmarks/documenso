@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/137173041520",
+  "conclusion": "success",
+  "started_at": "2026-11-22T09:59:31Z",
+  "completed_at": "2026-11-22T10:08:42Z",
+  "title": "788 passed, 4 flaky",
+  "summary": "### \u2705 All 788 tests passed in 9 min 12 s\n\nOn fb2aec8 \u00b7 12 min into the job \u00b7 11 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_09ebc98a90bbe8cd/2e935e7d5efd93b4d23056fd9315361f/html/index.html)\n\n<details>\n<summary>4 flaky tests, not blocking</summary>\n\n`[TEAMS]: delete pending team document` failed once here, then passed on retry\n`[TEAMS]: delete completed team document` failed twice here, then passed on retry\n`sender filter should narrow results correctly` failed once here, then passed on retry\n`[ASSISTANT_NULL_ORDER]: a null-order assistant can assist a null-order recipient created after them` failed once here, then passed on retry\n\n</details>",
+  "text": null
+ }
+]

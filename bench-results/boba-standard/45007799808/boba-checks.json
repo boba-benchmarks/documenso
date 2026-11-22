@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/documenso/runs/137166540018",
+  "conclusion": "success",
+  "started_at": "2026-11-22T09:32:48Z",
+  "completed_at": "2026-11-22T09:42:57Z",
+  "title": "788 passed, 3 flaky",
+  "summary": "### \u2705 All 788 tests passed in 10 min 10 s\n\nOn fb2aec8 \u00b7 13 min 14 s into the job \u00b7 11 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_ede2a992b64f91c6/8b2626e0253eb5cfab4b1df176b463f6/html/index.html)\n\n<details>\n<summary>3 flaky tests, not blocking</summary>\n\n`[DOCUMENTS]: deleting documents as a recipient should only hide it for them` failed twice here, then passed on retry\n`sender filter should narrow results correctly` failed 4 times here, then passed on retry\n`switching team in settings records the newly selected team` failed once here, then passed on retry\n\n</details>",
+  "text": null
+ }
+]
